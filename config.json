@@ -1,0 +1,27 @@
+{
+  "ai_provider": "groq",
+  "groq_api_key": "",
+  "groq_model": "llama-3.1-8b-instant",
+  "ollama_url": "http://localhost:11434",
+  "default_model": "llama3.1:8b",
+  "arduino_cli_path": "tools\\arduino-cli.exe",
+  "workspace_dir": "workspace\\sketch",
+  "available_boards": [
+    {"name": "Arduino Nano (Old Bootloader / CH340)", "fqbn": "arduino:avr:nano:cpu=atmega328old"},
+    {"name": "Arduino Nano (New Bootloader)",         "fqbn": "arduino:avr:nano:cpu=atmega328"},
+    {"name": "Arduino Uno",                           "fqbn": "arduino:avr:uno"},
+    {"name": "Arduino Mega 2560",                     "fqbn": "arduino:avr:mega"},
+    {"name": "Arduino Leonardo",                      "fqbn": "arduino:avr:leonardo"},
+    {"name": "ESP32",                                 "fqbn": "esp32:esp32:esp32"},
+    {"name": "ESP32-C3",                              "fqbn": "esp32:esp32:esp32c3"},
+    {"name": "ESP32-S3",                              "fqbn": "esp32:esp32:esp32s3"},
+    {"name": "Raspberry Pi Pico (RP2040)",            "fqbn": "rp2040:rp2040:rpipico"}
+  ],
+  "max_fix_iterations": 3,
+  "ai_timeout": 60,
+  "serial_baud": 115200,
+  "auto_install_cores": true,
+  "required_cores": ["arduino:avr", "esp32:esp32", "rp2040:rp2040"],
+  "theme": "dark",
+  "version": "3.0.0"
+}
